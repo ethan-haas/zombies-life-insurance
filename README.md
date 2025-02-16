@@ -1,6 +1,6 @@
 # Zombies Life Insurance
 
-A Python-based computer vision tool designed to automate the "Life Insurance" exploit (Alt+F4) in Call of Duty: Black Ops 6 Zombies, providing a temporary save state upon player down.  This allows for a single additional "life" per round.
+A Python-based computer vision tool designed to automate the "Life Insurance" exploit (Alt+F4) in Call of Duty: Black Ops 6 Zombies, providing a temporary save state upon player down.  This allows for a single additional "life" per round. This should work regardless of resolution or color contrast settings!
 
 
 ![Alt text](https://github.com/ethan-haas/zombies-life-insurance/blob/main/Showcase.png?raw=true)
