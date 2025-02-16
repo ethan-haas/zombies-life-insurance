@@ -54,7 +54,7 @@ def screen_capture_and_detect(template_path, output_folder, monitor_number=1):
         screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
         
         result = cv2.matchTemplate(screen_gray, template, cv2.TM_CCOEFF_NORMED)
-        threshold = 0.6
+        threshold = 0.8
         
         locations = np.where(result >= threshold)
         matches = list(zip(*locations[::-1]))
