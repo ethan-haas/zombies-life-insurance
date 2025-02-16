@@ -21,6 +21,7 @@ This utility leverages OpenCV to monitor the game screen in real-time. Upon dete
 *   NumPy (`numpy`)
 *   MSS (`mss`)
 *   Keyboard (`keyboard`)
+*   Colorama (`colorama`)
 
 ## Exploit Limitations
 
@@ -41,7 +42,7 @@ The temporary save state functionality has the following limitations:
 2.  Install dependencies:
 
     ```bash
-    pip install opencv-python numpy mss keyboard
+    pip install opencv-python numpy mss keyboard colorama
     ```
 
 ## Usage
