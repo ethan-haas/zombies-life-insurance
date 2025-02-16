@@ -2,6 +2,10 @@
 
 A Python-based computer vision tool designed to automate the "Life Insurance" exploit (Alt+F4) in Call of Duty: Black Ops 6 Zombies, providing a temporary save state upon player down.  This allows for a single additional "life" per round.
 
+
+![Alt text](https://github.com/ethan-haas/zombies-life-insurance/blob/main/Showcase.png?raw=true)
+
+
 ## Description
 
 This utility leverages OpenCV to monitor the game screen in real-time. Upon detection of the player "down" state, it automatically executes the Alt+F4 command, effectively reverting the game to the last save point. This grants the player a second chance within the round.
